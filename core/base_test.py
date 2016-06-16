@@ -1,14 +1,14 @@
 import os
 import unittest
 from appium import webdriver
-import allure                                     #pytest
+import allure
 from time import sleep
 
 PLATFORM_NAME = 'Android'
 PLATFORM_VERSION = '5.1'
 DEVICE_NAME = 'xt1097-TA9890BG2I'
-PROJECT_PATH = 'C:/Users/kvi.KYIV/PycharmProjects/appy-master'
-APP_PATH = 'C:/Users/kvi.KYIV/Desktop/MittTele2_Android-prod-release-1098.apk'
+PROJECT_PATH = 'C:/Users/Victoria/Desktop/Test-project-master'
+APP_PATH = 'C:/Users/Victoria/Desktop/MittTele2_Android-prod-release-1098.apk'
 APP_PACKAGE = 'swe.tele2.mittTele2'
 APP_ACTIVITY = 'swe.tele2.mittTele2/swe.tele2.mitttele2.ui.startup.SplashScreenActivity'
 HOST = 'http://127.0.0.1:4723/wd/hub'

@@ -8,7 +8,7 @@ class AboutAppTest(BaseTest):
     def setUp(self):
         self.base_screen = BaseScreen(self.driver)
 
-    @allure.step                                        #may be allure.step?
+    @allure.step
     def test_1_login_webview_is_shown(self):
         # Test data
         expected_title = u'Översikt'

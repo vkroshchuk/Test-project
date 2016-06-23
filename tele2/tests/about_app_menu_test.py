@@ -21,7 +21,7 @@ class AboutAppTest(BaseTest):
         print'Pass. Login webview is shown'
 
     @allure.step
-    def test_2_successful_login(self):
+    def test_2_successful_loginnn(self):
         #Test data
 
         login = 'hanna_lebanes@live.com'
